@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fr6"
+    tools:context=".BlankFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bt_white"
+                android:hint="&lt;"
+                android:layout_margin="30dp"
+                android:padding="10dp"
+                android:textSize="30sp"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:src="@drawable/cream_brown_minimalist_line_art_fashion_store_logo__1__1" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset password"
+                android:layout_gravity="start"
+                android:textStyle="bold"
+                android:textSize="40sp"/>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New pasword"
+                android:layout_gravity="start"/>
+
+            <EditText
+                android:textSize="30sp"
+                android:layout_marginTop="10dp"
+                android:paddingVertical="10dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/bt_white"
+                android:layout_height="wrap_content"
+                android:hint="must be 8 characters"
+                android:paddingStart="15dp"
+                android:inputType="text"/>
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirm new pasword"
+                android:layout_gravity="start"/>
+
+            <EditText
+                android:textSize="30sp"
+                android:layout_marginTop="10dp"
+                android:paddingVertical="10dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/bt_white"
+                android:layout_height="wrap_content"
+                android:hint="repeat password"
+                android:paddingStart="15dp"
+                android:inputType="text"/>
+            <TextView
+                android:id="@+id/btnRp"
+                android:textSize="30sp"
+                android:layout_marginTop="25dp"
+                android:paddingVertical="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bt_green"
+                android:text="Reset password"
+                android:gravity="center_horizontal"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
