@@ -44,7 +44,7 @@ Nhiệm vụ:
 ### Kiến trúc MVVM
 
 ```
-e:\Android\mvvm.png
+![alt text](mvvm.png)
 
 ## 2. So sánh MVVM với MVC và MVP
 
@@ -161,4 +161,4 @@ Người dùng nhập **Username**, **Password** và nhấn nút **Login**.
 
 ```
 
-![alt text](image-1.png)
+![alt text](image-2.png)
